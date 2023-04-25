@@ -153,15 +153,26 @@ var weatherInfo = (humidity, temperature, pressure) // зверніть уваг
 weatherInfo.1 = 19 // тому через крапку видно тільки індекс
 print("\nІнфорація про погоду:") print("Температура: \(weatherInfo.1)")
 */
-print("Прізвище: ")
-print("Вік: ")
-print("Зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+var profileInfo = (firstName: userName, lastName: userLastName, age: userAge, weight: userWeight, height: userHeight, married: userMarriaged)
+var wetherInfo = (temp: temperature, hum: humidity, press: pressere)
+
+profileInfo.weight = 70
+profileInfo.age = 20
+
+print("Ім'я: \(profileInfo.firstName) ")
+print("Прізвище: \(profileInfo.lastName) ")
+print("Вік: \(profileInfo.age) ")
+print("Зріст: \(profileInfo.height) см")
+print("Вага: \(profileInfo.weight) кг")
+print("У шлюбі: \(profileInfo.married) ")
+
+wetherInfo.temp = 30
+
+
 print("\nІнфорація про погоду:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(wetherInfo.press) hPa")
+print("Вологість: \(wetherInfo.hum)%")
+print("Температура: \(wetherInfo.temp) C")
 print("\nРозділ 1.5 Опціонали\n") /*
 Розділ 1.5 - Опціонали
 1 Оголосити змінну userLoggedIn типу Bool як Optional
