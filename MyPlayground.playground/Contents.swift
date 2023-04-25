@@ -55,20 +55,34 @@ someUserAge = 29
 print("\nІнформація за поточний рік:") print("Ім'я: \(someUserFirstName)") print("Вік: \(someUserAge)")
 ...
 */
+
+var userName: String = "Tihon"
+var userLastName: String = "Toloconnicov"
+var userAge: Int = 14
+var userHeight: Double = 2
+var userWeight: Double = 64.5
+var userMarriaged: Bool = true
+
+
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userName) ")
+print("Прізвище:\(userLastName) ")
+print("Вік:\(userAge) ")
+print("зріст: см \(userHeight) ")
+print("Вага: кг \(userWeight) ")
+print("У шлюбі: \(userMarriaged) ")
+
+userAge = 19
+userHeight = 2.1
+userWeight = 94.6
+
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(userName) ")
+print("Прізвище: \(userLastName) ")
+print("Вік: \(userAge) ")
+print("зріст: см \(userHeight) ")
+print("Вага: кг \(userWeight) ")
+print("У шлюбі: \(userMarriaged) ")
 print("\nРозділ 1.3 Псевдоніми\n") /*
  Розділ 1.3 - Псевдоніми
 
