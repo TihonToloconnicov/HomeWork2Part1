@@ -107,14 +107,32 @@ print("\nПогода сьогодні:") print("Вологість: \(humidity)
  * вологість - Humidity 50 %
  * температура - Сelsius 18 С
 */
+typealias Temperature = Double
+
+typealias Humidity = Double
+
+typealias Pressure = UInt
+
+var temperature: Temperature = 15
+var humidity: Humidity = 80
+var pressere: Pressure = 750
+
+
 print("Погода вчора:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(pressere) hPa")
+print("Вологість: \(humidity)%")
+print("Температура: \(temperature) C")
+
+temperature = 21.5
+humidity = 54
+pressere = 755
+
 print("\nПогода сьогодні:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+
+print("Тиск: \(pressere) hPa")
+print("Вологість: \(humidity)%")
+print("Температура: \(temperature) C")
+
 print("\nРозділ 1.4 Кортежі\n")
 /*
  Розділ 1.4 - Кортежі
